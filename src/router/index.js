@@ -42,7 +42,6 @@ router.beforeEach((to, from, next) => {
   if (to.matched.some(record => record.meta.requiresAuth)) {
     // 这里检查用户是否已登录
     if (!store.state.isLoggedIn) {
-      console.log(store.state.isLoggedIn);
       alert('请先登录！')
       next({
         path: '/login',

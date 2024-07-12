@@ -50,7 +50,6 @@ export default {
         },
         filterCourses(subCategory) {
             this.filteredCourses = Object.keys(subCategory.ClassName)
-            console.log(this.filteredCourses);
         },
         ...mapActions(['fetchClassList'])
     },

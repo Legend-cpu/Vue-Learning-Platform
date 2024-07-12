@@ -70,7 +70,6 @@ export default {
                 if (error) {
                     alert('注册失败：' + error.message);
                 } else {
-                    console.log('注册成功：', data)
                     this.login()
                 }
             } catch (error) {
@@ -89,7 +88,6 @@ export default {
                 if (error) {
                     alert('登录失败：' + error.message);
                 } else {
-                    console.log('登录成功：', data)
                     this.setLoggedIn(true)
                     // 补充：登录后跳转首页
                     this.$router.push('/');
