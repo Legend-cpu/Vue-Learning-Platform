@@ -1,0 +1,424 @@
+{
+    "CS-classes": [
+        {
+            "LargeCategory": "前端开发",
+            "SubCategories": [
+                {
+                    "SubCategoryName": "HTML与CSS",
+                    "ClassName": {
+                        "HTML基础": {},
+                        "CSS基础": {},
+                        "HTML5新特性": {},
+                        "CSS3新特性": {},
+                        "响应式设计": {},
+                        "Flexbox布局": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "JavaScript",
+                    "ClassName": {
+                        "JavaScript基础": {},
+                        "ES6+": {},
+                        "DOM操作": {},
+                        "事件处理": {},
+                        "异步编程": {},
+                        "JavaScript性能优化": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "前端框架",
+                    "ClassName": {
+                        "Vue.js基础": {},
+                        "Vue.js进阶": {},
+                        "React基础": {},
+                        "React进阶": {},
+                        "Angular基础": {},
+                        "Angular进阶": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "前端工具",
+                    "ClassName": {
+                        "Webpack": {},
+                        "Gulp": {},
+                        "Node.js工具": {},
+                        "版本控制": {},
+                        "前端测试": {},
+                        "开发工具": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "前端性能优化",
+                    "ClassName": {
+                        "性能优化基础": {},
+                        "代码优化": {},
+                        "渲染优化": {},
+                        "网络优化": {},
+                        "性能监控": {},
+                        "实战案例": {}
+                    }
+                }
+            ]
+        },
+        {
+            "LargeCategory": "后端开发",
+            "SubCategories": [
+                {
+                    "SubCategoryName": "服务器开发",
+                    "ClassName": {
+                        "Node.js": {},
+                        "Express.js": {},
+                        "Koa.js": {},
+                        "Django": {},
+                        "Flask": {},
+                        "Spring Boot": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "API开发",
+                    "ClassName": {
+                        "RESTful API": {},
+                        "GraphQL": {},
+                        "gRPC": {},
+                        "SOAP": {},
+                        "API网关": {},
+                        "API安全": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "数据库操作",
+                    "ClassName": {
+                        "MySQL": {},
+                        "PostgreSQL": {},
+                        "MongoDB": {},
+                        "Redis": {},
+                        "SQLite": {},
+                        "Cassandra": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "服务器部署",
+                    "ClassName": {
+                        "Linux基础": {},
+                        "Nginx": {},
+                        "Apache": {},
+                        "Docker": {},
+                        "Kubernetes": {},
+                        "CI/CD": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "后端框架",
+                    "ClassName": {
+                        "Spring": {},
+                        "Laravel": {},
+                        "Ruby on Rails": {},
+                        "ASP.NET": {},
+                        "Phoenix": {},
+                        "FastAPI": {}
+                    }
+                }
+            ]
+        },
+        {
+            "LargeCategory": "数据库",
+            "SubCategories": [
+                {
+                    "SubCategoryName": "关系型数据库",
+                    "ClassName": {
+                        "MySQL": {},
+                        "PostgreSQL": {},
+                        "Oracle": {},
+                        "SQL Server": {},
+                        "SQLite": {},
+                        "MariaDB": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "NoSQL数据库",
+                    "ClassName": {
+                        "MongoDB": {},
+                        "Redis": {},
+                        "Cassandra": {},
+                        "CouchDB": {},
+                        "HBase": {},
+                        "Neo4j": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "数据仓库",
+                    "ClassName": {
+                        "Amazon Redshift": {},
+                        "Google BigQuery": {},
+                        "Snowflake": {},
+                        "Apache Hive": {},
+                        "Apache HBase": {},
+                        "Azure Synapse": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "数据库设计",
+                    "ClassName": {
+                        "数据库建模": {},
+                        "正则化": {},
+                        "ER图": {},
+                        "数据库优化": {},
+                        "索引设计": {},
+                        "分区分表": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "数据库管理",
+                    "ClassName": {
+                        "数据库备份": {},
+                        "数据库恢复": {},
+                        "权限管理": {},
+                        "性能调优": {},
+                        "数据库安全": {},
+                        "灾难恢复": {}
+                    }
+                }
+            ]
+        },
+        {
+            "LargeCategory": "人工智能",
+            "SubCategories": [
+                {
+                    "SubCategoryName": "机器学习",
+                    "ClassName": {
+                        "监督学习": {},
+                        "无监督学习": {},
+                        "强化学习": {},
+                        "深度学习": {},
+                        "模型评估": {},
+                        "特征工程": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "自然语言处理",
+                    "ClassName": {
+                        "文本预处理": {},
+                        "情感分析": {},
+                        "机器翻译": {},
+                        "文本生成": {},
+                        "信息提取": {},
+                        "语言模型": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "计算机视觉",
+                    "ClassName": {
+                        "图像分类": {},
+                        "目标检测": {},
+                        "图像分割": {},
+                        "人脸识别": {},
+                        "姿态估计": {},
+                        "视觉生成": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "数据挖掘",
+                    "ClassName": {
+                        "关联规则": {},
+                        "聚类分析": {},
+                        "分类算法": {},
+                        "回归分析": {},
+                        "时间序列分析": {},
+                        "异常检测": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "AI应用",
+                    "ClassName": {
+                        "智能推荐": {},
+                        "自动驾驶": {},
+                        "智能客服": {},
+                        "医疗诊断": {},
+                        "金融风控": {},
+                        "智能家居": {}
+                    }
+                }
+            ]
+        },
+        {
+            "LargeCategory": "网络安全",
+            "SubCategories": [
+                {
+                    "SubCategoryName": "网络安全基础",
+                    "ClassName": {
+                        "安全概念": {},
+                        "安全模型": {},
+                        "密码学基础": {},
+                        "网络攻击": {},
+                        "防火墙": {},
+                        "入侵检测": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "系统安全",
+                    "ClassName": {
+                        "操作系统安全": {},
+                        "Linux安全": {},
+                        "Windows安全": {},
+                        "虚拟化安全": {},
+                        "补丁管理": {},
+                        "系统漏洞": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "应用安全",
+                    "ClassName": {
+                        "Web应用安全": {},
+                        "移动应用安全": {},
+                        "API安全": {},
+                        "软件安全": {},
+                        "应用漏洞扫描": {},
+                        "代码审计": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "数据安全",
+                    "ClassName": {
+                        "数据加密": {},
+                        "数据备份": {},
+                        "数据脱敏": {},
+                        "数据泄露防护": {},
+                        "隐私保护": {},
+                        "数据完整性": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "安全管理",
+                    "ClassName": {
+                        "安全策略": {},
+                        "风险管理": {},
+                        "安全审计": {},
+                        "安全标准": {},
+                        "合规性": {},
+                        "应急响应": {}
+                    }
+                }
+            ]
+        },
+        {
+            "LargeCategory": "云计算",
+            "SubCategories": [
+                {
+                    "SubCategoryName": "云计算基础",
+                    "ClassName": {
+                        "云计算概述": {},
+                        "云服务类型": {},
+                        "虚拟化技术": {},
+                        "容器技术": {},
+                        "分布式计算": {},
+                        "弹性计算": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "云平台",
+                    "ClassName": {
+                        "AWS": {},
+                        "Azure": {},
+                        "Google Cloud": {},
+                        "Alibaba Cloud": {},
+                        "IBM Cloud": {},
+                        "Tencent Cloud": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "云存储",
+                    "ClassName": {
+                        "对象存储": {},
+                        "块存储": {},
+                        "文件存储": {},
+                        "分布式文件系统": {},
+                        "备份与恢复": {},
+                        "云存储优化": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "云安全",
+                    "ClassName": {
+                        "云安全概述": {},
+                        "身份与访问管理": {},
+                        "数据保护": {},
+                        "网络安全": {},
+                        "合规与审计": {},
+                        "威胁检测": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "云原生",
+                    "ClassName": {
+                        "微服务架构": {},
+                        "容器编排": {},
+                        "服务网格": {},
+                        "持续交付": {},
+                        "无服务器计算": {},
+                        "云原生数据库": {}
+                    }
+                }
+            ]
+        },
+        {
+            "LargeCategory": "软件工程",
+            "SubCategories": [
+                {
+                    "SubCategoryName": "软件开发",
+                    "ClassName": {
+                        "需求分析": {},
+                        "系统设计": {},
+                        "编码规范": {},
+                        "代码评审": {},
+                        "软件测试": {},
+                        "持续集成": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "软件项目管理",
+                    "ClassName": {
+                        "项目管理基础": {},
+                        "敏捷开发": {},
+                        "Scrum": {},
+                        "项目计划": {},
+                        "项目进度管理": {},
+                        "项目风险管理": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "软件架构",
+                    "ClassName": {
+                        "架构设计基础": {},
+                        "面向对象设计": {},
+                        "微服务架构": {},
+                        "事件驱动架构": {},
+                        "分布式系统": {},
+                        "DevOps实践": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "软件质量保障",
+                    "ClassName": {
+                        "软件测试基础": {},
+                        "单元测试": {},
+                        "集成测试": {},
+                        "系统测试": {},
+                        "测试自动化": {},
+                        "性能测试": {}
+                    }
+                },
+                {
+                    "SubCategoryName": "软件维护",
+                    "ClassName": {
+                        "软件维护基础": {},
+                        "版本控制": {},
+                        "Bug管理": {},
+                        "代码重构": {},
+                        "性能优化": {},
+                        "持续改进": {}
+                    }
+                }
+            ]
+        }
+    ]
+}

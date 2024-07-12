@@ -1,32 +1,47 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <Header></Header>
+    <router-view></router-view>
+    <Footer></Footer>
   </div>
 </template>
 
 <style lang="less">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
   text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
+  font-size: var(--base-font-size);
+  color: var(--normal-text-color);
 
   a {
-    font-weight: bold;
-    color: #2c3e50;
+    cursor: pointer;
+    text-decoration: none;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #8f13d2;
     }
   }
+
 }
+
 </style>
+
+<script>
+import Header from '@/components/layout/HeaderComponent.vue'
+import Home from '@/views/HomePage.vue'
+import Login from '@/views/LoginPage.vue'
+import Footer from '@/components/layout/FooterComponent.vue'
+import UserCenter from '@/views/UserCenter.vue'
+
+export default {
+  components: {
+    Header,
+    Footer,
+    Home,
+    Login,
+    UserCenter,
+  },
+  created() {
+  }
+}
+</script>
